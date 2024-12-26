@@ -1,0 +1,134 @@
+@font-face{
+    font-family: roboto;
+    src: url(../font/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: raleway;
+    src: url(../font/Raleway.ttf);
+}
+.menu-hamburger{
+    display: none;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    background: url(../img/Обложка.png);
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.778/1;
+    background-size: contain;
+}
+.menu>ul{
+    display: flex;
+    padding: 0;
+    width: 50%;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.menu>ul li{
+    display: block;
+    list-style: none;
+    font-family: roboto;
+    font-size: 24px
+}
+.header{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: raleway;
+}
+.subheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    font-size: 24px;
+}
+.second-title{
+    font-size: 28px;
+    font-family: raleway;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+.columns{
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    font-size: 14px;
+    font-family: roboto;
+}
+.col1{
+    flex-basis: 50%;
+    margin-right: 50px;
+}
+.col2{
+    flex-basis: 50%;
+    margin-left: 50px;
+}
+/*покоряй вершины*/
+.hight{
+    display: flex;
+    margin: 100px 0 0 15%;
+}
+.left-text{
+    flex: 1 1 45%;
+    font-family: roboto;
+    font-size: 14px;
+}
+.text-content{
+    margin:50px 50px 50px 0;
+}
+.text-content p{
+    margin:20px 0;
+}
+.right-img{
+    object-fit: contain;
+    flex:1 1 55%;
+}
+.right-img img{
+    width: 100%;
+    height:auto
+}
+.third-title{
+    font-family: raleway;
+    font-size: 48px;
+    text-align: center;
+    margin:50px 0
+}
+/*наша команада*/
+.command{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+}
+.serfer div{
+    object-fit: contain;
+}
+.serfer div img{
+    width:80%;
+    height: auto;
+}
+.serfer-text div:first-child{
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: bold;
+    text-align: center;
+}
+.serfer-text div:last-child{
+    font-size: 14px;
+    font-family: roboto;
+    text-align: center;
+}
+/*подвал*/
+.footer{
+    width: 100vw;
+    background: #00B2A0;
+    margin-top: 100px;
+}
+body{
+    margin: 0;
+}

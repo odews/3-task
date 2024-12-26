@@ -1,0 +1,62 @@
+@media (max-width:800px)
+{
+    .menu-hamburger{
+        display: block;
+        position: absolute;
+    }
+    .menu{
+        display: none;
+    }
+    .header{
+        margin-top: 50px;
+    }
+    .subheader div{
+        text-align: center;
+    }
+    .columns{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .col1,.col2{
+        margin: 0;
+    }
+    .hight{
+        flex-direction: column;
+        margin: 0 top;
+        width: 70%;
+    }
+    .text-content{
+        margin-right: 0;
+    }
+    .second-title{
+        margin: 30px;
+
+    }
+    .third-title{
+        margin: 20px 0;
+    }
+    .command{
+        flex-direction: column;
+    }
+    .serfer{
+        margin-bottom: 30px;
+    }
+    .serfer div{
+        object-fit: contain;
+        text-align: center;
+    }
+    .serfer-text div:first-child{
+        font-size: 12px;
+        font-family: roboto;
+        font-weight: bold;
+        text-align: center;
+    }
+    .serfer-text div:last-child{
+        font-size: 10px;
+        font-family: roboto;
+        text-align: center;
+    }
+    .footer{
+        margin-top: 0;
+    }
+}
